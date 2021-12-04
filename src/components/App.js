@@ -8,6 +8,7 @@ import { Container, Image } from 'react-bootstrap';
 import PeoplePage from './techforequity/TFEPeople';
 import ProjectsPage from './techforequity/TFEProjects';
 import TechForEquity from './techforequity/TechForEquity';
+import FAQPage from './techforequity/TFEFAQ';
 
 class App extends React.Component {
   constructor() {
@@ -21,6 +22,7 @@ class App extends React.Component {
         <Route exact path="/" component={TechForEquity} />
         <Route exact path="/projects" component={ProjectsPage} />
         <Route exact path="/people" component={PeoplePage} />
+        <Route exact path="/FAQ" component={FAQPage} />
       </BrowserRouter>
     );
   }
