@@ -75,7 +75,7 @@ class TechForEquity extends React.Component {
                     innovators at the ACLU, Vera Institute of Justice, and other
                     high-impact organizations.
                   </p>
-                  <br />
+               
                   <div className="details-title"> Our Mission </div>
                   <p>
                     The mission of Tech for Equity is to bridge the gap between
